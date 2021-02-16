@@ -1,6 +1,6 @@
 # Substrate Node Template
 
-A fresh FRAME-based [Substrate](https://www.substrate.io/) node, ready for hacking :rocket:
+A fresh FRAME-based node, ready for hacking :rocket:
 
 ## Getting Started
 
@@ -18,12 +18,9 @@ them. Get started by running these [`make`](https://www.gnu.org/software/make/ma
 targets:
 
 1. `make init` - Run the [init script](scripts/init.sh) to configure the Rust toolchain for
-   [WebAssembly compilation](https://substrate.dev/docs/en/knowledgebase/getting-started/#webassembly-compilation).
+   [WebAssembly compilation]
 1. `make run` - Build and launch this project in development mode.
 
-The init script and Makefile both specify the version of the
-[Rust nightly compiler](https://substrate.dev/docs/en/knowledgebase/getting-started/#rust-nightly-toolchain)
-that this project depends on.
 
 ### Build
 
